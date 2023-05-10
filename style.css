@@ -1,1 +1,55 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section styles */
+.section {
+  float: left;
+  width: 33.33%;
+  border: 1px solid #000;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+/* Section title styles */
+.section-title {
+  position: relative;
+  top: 0;
+  right: 0;
+  background-color: #ff8c00;
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Tablet styles */
+@media (max-width: 991px) {
+  .section {
+    width: 50%;
+  }
+  .section:nth-child(3) {
+    clear: both;
+    width: 100%;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .section {
+    width: 100%;
+  }
+  .section-title {
+    font-size: 14px;
+  }
+}
 
