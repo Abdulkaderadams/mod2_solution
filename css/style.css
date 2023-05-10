@@ -11,13 +11,17 @@
   margin: 0 auto;
 }
 
+
+h2{
+  text-align: center;
+}
+
 /* Section styles */
 .section {
   float: left;
   width: 33.33%;
   border: 1px solid #000;
   background-color: #f7f7f7;
-  padding: 20px;
 }
 
 /* Section title styles */
@@ -28,8 +32,15 @@
   background-color: #ff8c00;
   color: #fff;
   padding: 10px;
-  font-size: 16px;
+  font-size: 46px;
   font-weight: bold;
+  text-align: right;
+}
+
+.section-content{
+  font-size: 18px;
+  padding: 20px;
+
 }
 
 /* Tablet styles */
@@ -49,6 +60,9 @@
     width: 100%;
   }
   .section-title {
-    font-size: 14px;
+    font-size: 75%;
+  }
+  .section-content {
+    font-size: 60%;
   }
 }
